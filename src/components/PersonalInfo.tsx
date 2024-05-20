@@ -8,7 +8,7 @@ function PersonalInfoForm() {
     const [formData, setFormData] = useState({
         fullName: 'Mehmet Papila',
         email: 'mehmetpapila95@gmail.com',
-        phone: '936-662-6531',
+        phone: '123-456-7890',
         address: 'Houston Texas'
     });
     const [labelValue, setLabelValue] = useState({
