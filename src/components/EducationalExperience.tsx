@@ -77,7 +77,7 @@ function EducationalExperience() {
                             }
                             const handleRemove = () => {
                                 setSchoolForm(prev => {
-                                    const newSchoolForm = prev.filter((school, index) => index !== i)
+                                    const newSchoolForm = prev.filter((_, index) => index !== i)
                                     return newSchoolForm
                                 })
                             }
