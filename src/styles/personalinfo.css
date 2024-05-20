@@ -1,0 +1,46 @@
+.general-info {
+    background-color: #AED1CE;
+    max-width: 66vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.left {
+    width: 70%;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    color: white;
+    font-weight: bold;
+    margin-left: 15%;
+    font-size: 20px;
+}
+
+.right {
+    font-size: 13px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right svg {
+    width: 15px;
+    margin-right: 10px;
+}
+
+.btn {
+    margin-left: 10px;
+
+}
+
+.phone svg path {
+    fill: white;
+}
